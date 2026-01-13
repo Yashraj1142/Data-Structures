@@ -13,7 +13,6 @@ class LongCommonPrefixSolution{
         }
 
         return prefix;
-        
     }
 }
 
