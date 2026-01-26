@@ -22,6 +22,7 @@ class AnagramSolution{
     }
 }
 
+
 public class Anagram {
     public static void main(String[] args) {
         AnagramSolution a1 = new AnagramSolution();
