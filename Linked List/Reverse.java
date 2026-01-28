@@ -13,6 +13,7 @@ class ReverseSolution{
         ListNode curr = head;
         ListNode prev = null;
 
+        //reverse list
         while(curr != null){
             ListNode next = curr.next;
             curr.next = prev;
