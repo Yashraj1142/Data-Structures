@@ -1,8 +1,8 @@
-class Queue{
+class QueueSol{
     int[] queue;
     int capacity, size, front, rear;
 
-    Queue(int capacity){
+    QueueSol(int capacity){
         this.capacity = capacity;
         queue = new int[capacity];
         size = 0;
@@ -73,7 +73,7 @@ class Queue{
 
 public class QueueArray {
     public static void main(String[] args) {
-        Queue q1 = new Queue(5);
+        QueueSol q1 = new QueueSol(5);
 
         //check if full or empty
         if(q1.isEmpty()) System.out.println("Queue is empty");
