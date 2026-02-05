@@ -1,10 +1,10 @@
-class Stack{
+class StackSol{
     private int[] stack;
     private int capacity;
     private int top;
 
     //constructor
-    Stack(int size){
+    StackSol(int size){
         capacity = size;
         stack = new int[capacity];
         top = -1;
@@ -52,7 +52,7 @@ class Stack{
 
 public class StackArray {
     public static void main(String[] args) {
-        Stack s1 = new Stack(5);
+        StackSol s1 = new StackSol(5);
 
         //check if empty and full
         if(s1.isEmpty()) System.out.println("Stack is Empty");
